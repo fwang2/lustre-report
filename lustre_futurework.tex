@@ -1,0 +1,50 @@
+\section{Future Work}
+
+Lustre was initiated and funded, almost a decade ago, by the U.S. Department of
+Energy (DOE) Office of Science and National Nuclear Security Administration
+(NNSA) Laboratories to address the need for an open source, highly scalable,
+high-performance parallel filesystem on then-present and future supercomputing
+platforms. Throughout the last decade, while satisfying the scalability and
+performance requirements of the various supercomputing platforms deployed not
+only by DOE Laboratories but also by other domestic and international industry
+and research institutes, Lustre has become increasingly large and complex.
+This report only scratches the surface of the current 1.6 version of the Lustre
+source code base. Because Lustre is a moving target, keeping documentation up
+to date to address day-to-day user problems and to help meet future
+requirements will require a substantial effort. Limited by time and resources
+the authors did not include the following topics that merit documentation: 
+
+
+\begin{itemize}
+
+\item This documentation is based on Lustre code base \url{b1.6} as the
+reference implementation. However, significant changes occurred on the \url{b1.8}
+branch and the upcoming 2.0 release. Any future effort should take this into
+consideration.
+
+\item Failure recovery has been a constant theme for many bug fixes and new
+Lustre feature development. It also has a direct bearing on providing insight on the 
+Lustre diagnosis we do on a daily basis. Though we touch on it in
+this report, it would be desirable to provide a holistic view on the subject
+from the Lustre kernel support perspective.
+
+
+\item Lustre scalability is another topic in which we have a vested interest.
+A centralized discussion on its kernel support, status, limits, and recent bug
+fixes and feature enhancement would be highly beneficial.
+
+\item Quota support was also left out of this report. A detailed analysis of
+this subject in future updates will be benefical for both the Lustre developers
+and the user community.
+
+\item Security (e.g., Kerberos, in terms of computer network authentication)
+will soon be a default requirement for Lustre. Coverage of this topic in future
+updates would provide  a more complete picture of Lustre. 
+
+\end{itemize}
+
+The authors have shared their insights and understanding of Lustre as it stands
+today. The documentation on Lustre filesystem internals may never be complete
+because of the ever-changing nature of the Lustre source code base. It is the
+authors' hope that the Lustre community will make a collective effort to
+continue this work.
