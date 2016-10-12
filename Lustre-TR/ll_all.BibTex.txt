@@ -1,0 +1,11 @@
+@misc{Lustre2009,
+  author = {Feiyi Wang, Sarp Oral, Galen Shipman, Oleg Drokin, Tom Wang, Isaac Huang},
+  title = {Understanding Lustre Filesystem Internals},
+  institution = {National Center For Computational Sciences},
+  year = {2009},
+  number = {ORNL/TM-2009/117},
+  owner = {fwang2},
+  revision = {r850},
+  timestamp = {2009.04.15}
+}
+
